@@ -1,0 +1,71 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.welimg{
+display:flex;
+height: 8rem;
+width: 8rem;
+margin: auto;
+}
+.welTitle h1{
+color: #263655;
+text-shadow: 2px 2px 2px rgba(201, 131, 131, 0.258);
+font-weight: bold;
+}
+.welbt{
+display: flex;
+margin:auto;
+background-color: transparent;
+border-color:#263655;
+color: #263655;
+padding: 5px;
+border-radius: 5px;
+}
+.welbt:hover{
+background-color:#263655 ;
+color:white;
+transition: 1s;
+
+}
+.App {
+  text-align: center;
+  background-color: #5d7198;
+height: max-content;
+}
+.head_div{
+justify-content: center;
+align-items: center;
+}
+.heading{
+color: white;}
+.table-icon{
+height: 50px;
+width: 50px;
+margin-top: 2rem;
+}
+.reg-title{
+width:40%;
+margin: auto;
+padding: 0.5rem;
+border-radius: 5px;
+background-color:#263655;
+color:white;
+}
+.Reg-form{
+padding: 1rem;
+margin:auto;
+}
+.reg-box{
+box-shadow:0.5px 0.5px 0.5px 0.2px #b7bbc3;
+background-color: rgb(236, 243, 243);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
